@@ -2992,7 +2992,7 @@ ul.project_info li p {
 /*** Color Switcher Style
 ==================================================================== ***/
 .cmt_floting_customsett {
-    position: fixed;
+    /* position: fixed; */
     top: 50%;
     right: 0;
     padding: 3px 0 10px;

@@ -32,11 +32,11 @@ function page() {
                         </li>
                         <li>
                           <i className="fa fa-envelope-o"></i>
-                          <a href="mailto:info@example.com">info@example.com</a>
+                          <a href="mailto:cherupuzhabuilders@gmail.com">cherupuzhabuilders@gmail.com</a>
                         </li>
                         <li>
                           <i className="fa fa-phone"></i>
-                          + 18000-200-1234
+                          090205 85868
                         </li>
                       </ul>
                     </div>
@@ -553,7 +553,7 @@ function page() {
                         <h5><a href="#">Visit Our Branches</a></h5>
                       </div>
                       <div className="featured-desc">
-                        <p>Themeforest, Envanto HQ 24 Fifth st., Los Angeles, USA</p>
+                        <p>Cherupuzha Builders, Kannur, India, 670511</p>
                       </div>
                     </div>
                   </div>
@@ -574,7 +574,7 @@ function page() {
                         <h5><a href="#">Visit Our Branches</a></h5>
                       </div>
                       <div className="featured-desc">
-                        <p>Themeforest, Envanto HQ 24 Fifth st., Los Angeles, USA</p>
+                        <p>Cherupuzha Builders, Kannur, India, 670511</p>
                       </div>
                     </div>
                   </div>
@@ -928,19 +928,15 @@ function page() {
             <ul>
               <li>
                 <i className="fa fa-map-marker"></i>
-                Themeforest, Envanto HQ
-                <br />
-                24 Fifth st., Los Angeles, USA
+                Cherupuzha Builders, Kannur, India, 670511
               </li>
               <li>
                 <i className="fa fa-envelope-o"></i>
-                Email : <a href="#">name@yourmail.com</a>
+                Email : <a href="mailto:cherupuzhabuilders@gmail.com">cherupuzhabuilders@gmail.com</a>
               </li>
               <li>
                 <i className="fa fa-phone"></i>
-                Phone : +12 (3) 456 0000
-                <br />
-                Support : +12 (3) 456 0000
+                Phone : 090205 85868
               </li>
             </ul>
           </div>
@@ -996,7 +992,7 @@ function page() {
             <h3 className="widget-title">Get Free Estimate</h3>
             <div>
               <h3 className="widget_text_title cmt-textcolor-skincolor">
-                123-456-78910
+                090205 85868
               </h3>
               <p>Our online scheduling and payment system is safe.</p>
               <a

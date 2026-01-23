@@ -31,11 +31,11 @@ function page() {
                         </li>
                         <li>
                           <i className="fa fa-envelope-o"></i>
-                          <a href="mailto:info@example.com">info@example.com</a>
+                          <a href="mailto:cherupuzhabuilders@gmail.com">cherupuzhabuilders@gmail.com</a>
                         </li>
                         <li>
                           <i className="fa fa-phone"></i>
-                          + 18000-200-1234
+                          090205 85868
                         </li>
                       </ul>
                     </div>
@@ -44,7 +44,7 @@ function page() {
 
                 {/* Branding */}
                 <div className="site-branding">
-                  <a className="home-link" href="/" title="Raxena" rel="home">
+                  <a className="home-link" href="/" title="Cherupuzha Builders" rel="home">
                     <img
                       id="logo-img"
                       className="img-center"
@@ -181,10 +181,10 @@ function page() {
               </div>
             </div>
 
-            <span>Phone: +324 123 45 978</span>
+            <span>Phone: 090205 85868</span>
             <span>
               Email:{" "}
-              <a href="mailto:support@habikon.com">support@habikon.com</a>
+              <a href="mailto:cherupuzhabuilders@gmail.com">cherupuzhabuilders@gmail.com</a>
             </span>
             <h6><a href="#">Locate us on map</a></h6>
           </div>
@@ -205,7 +205,7 @@ function page() {
             </div>
 
             <span>
-              Flat A, 20/7, Reynolds Neck Str Helenaville, FV77 8WS
+              Cherupuzha Builders, Kannur, India, 670511
             </span>
             <h6><a href="#">Get call back</a></h6>
           </div>
@@ -446,19 +446,15 @@ function page() {
             <ul>
               <li>
                 <i className="fa fa-map-marker"></i>
-                Themeforest, Envanto HQ
-                <br />
-                24 Fifth st., Los Angeles, USA
+              Cherupuzha Builders, Kannur, India, 670511
               </li>
               <li>
                 <i className="fa fa-envelope-o"></i>
-                Email : <a href="#">name@yourmail.com</a>
+              Email : <a href="mailto:cherupuzhabuilders@gmail.com">cherupuzhabuilders@gmail.com</a>
               </li>
               <li>
                 <i className="fa fa-phone"></i>
-                Phone : +12 (3) 456 0000
-                <br />
-                Support : +12 (3) 456 0000
+              Phone : 090205 85868
               </li>
             </ul>
           </div>
@@ -514,7 +510,7 @@ function page() {
             <h3 className="widget-title">Get Free Estimate</h3>
             <div>
               <h3 className="widget_text_title cmt-textcolor-skincolor">
-                123-456-78910
+                090205 85868
               </h3>
               <p>Our online scheduling and payment system is safe.</p>
               <a
@@ -539,7 +535,7 @@ function page() {
         <div className="col-md-8 cmt-footer2-left">
           <span>
             Copyright © 2019&nbsp;
-            <a href="#">Construction</a>. All rights reserved.
+            <a href="#">Cherupuzha Builders</a>. All rights reserved.
           </span>
         </div>
 

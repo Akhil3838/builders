@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Raxena - Construction HTML Template",
-  description: "Raxena - Construction HTML Template",
+  title: "Cherupuzha Builders - Construction Website",
+  description: "Cherupuzha Builders - Construction Website",
   keywords: [
     "construction",
     "architect",
