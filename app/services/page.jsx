@@ -166,8 +166,17 @@ function page() {
 <section className="cmt-row services-top-section clearfix">
   <div className="container">
     <div className="row">
+      {/* Section Title */}
+      <div className="col-12 mb-4">
+        <div className="section-title clearfix text-center">
+          <div className="title-header">
+            <h5>OUR SERVICES</h5>
+            <h2 className="title">Our Services</h2>
+          </div>
+        </div>
+      </div>
 
-      {/* Service 1 */}
+      {/* Service 1 - Plan */}
       <div className="col-lg-4 col-md-6">
         <div className="featured-imagebox-services mb-30">
           <div className="featured-thumbnail box-shadow">
@@ -190,25 +199,25 @@ function page() {
 
             <div className="bottom-content-services">
               <div className="featured-title">
-                <h5><a href="apartment-design.html">Apartment Design</a></h5>
+                <h5>Plan</h5>
               </div>
               <div className="featured-desc">
                 <p>
-                  By dealing with data, select to ols that help you utomate tim cons sses.
+                  Comprehensive planning support for your project from start to finish.
                 </p>
               </div>
             </div>
 
             <div className="services-icon-box">
-              <a href="apartment-design.html">
+              <span>
                 <i className="ti ti-plus"></i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Service 2 */}
+      {/* Service 2 - Estimation */}
       <div className="col-lg-4 col-md-6">
         <div className="featured-imagebox-services mb-30">
           <div className="featured-thumbnail box-shadow">
@@ -231,25 +240,25 @@ function page() {
 
             <div className="bottom-content-services">
               <div className="featured-title">
-                <h5><a href="house-planning.html">House Planning</a></h5>
+                <h5>Estimation</h5>
               </div>
               <div className="featured-desc">
                 <p>
-                  By dealing with data, select to ols that help you utomate tim cons sses.
+                  Accurate cost and quantity estimation tailored to your construction needs.
                 </p>
               </div>
             </div>
 
             <div className="services-icon-box">
-              <a href="house-planning.html">
+              <span>
                 <i className="ti ti-plus"></i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Service 3 */}
+      {/* Service 3 - Structural Design */}
       <div className="col-lg-4 col-md-6">
         <div className="featured-imagebox-services mb-30">
           <div className="featured-thumbnail box-shadow">
@@ -272,25 +281,25 @@ function page() {
 
             <div className="bottom-content-services">
               <div className="featured-title">
-                <h5><a href="repair-welding.html">Repair Welding</a></h5>
+                <h5>Structural Design</h5>
               </div>
               <div className="featured-desc">
                 <p>
-                  By dealing with data, select to ols that help you utomate tim cons sses.
+                  Safe and efficient structural design complying with relevant codes and standards.
                 </p>
               </div>
             </div>
 
             <div className="services-icon-box">
-              <a href="repair-welding.html">
+              <span>
                 <i className="ti ti-plus"></i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Service 4 */}
+      {/* Service 4 - Chartered Engineering Service */}
       <div className="col-lg-4 col-md-6">
         <div className="featured-imagebox-services mb-30">
           <div className="featured-thumbnail box-shadow">
@@ -313,25 +322,25 @@ function page() {
 
             <div className="bottom-content-services">
               <div className="featured-title">
-                <h5><a href="expert-mechanical.html">Expert Mechanical</a></h5>
+                <h5>Chartered Engineering Service</h5>
               </div>
               <div className="featured-desc">
                 <p>
-                  By dealing with data, select to ols that help you utomate tim cons sses.
+                  Professional chartered engineering services for reports, approvals, and certifications.
                 </p>
               </div>
             </div>
 
             <div className="services-icon-box">
-              <a href="expert-mechanical.html">
+              <span>
                 <i className="ti ti-plus"></i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Service 5 */}
+      {/* Service 5 - Supervision */}
       <div className="col-lg-4 col-md-6">
         <div className="featured-imagebox-services mb-30">
           <div className="featured-thumbnail box-shadow">
@@ -354,25 +363,25 @@ function page() {
 
             <div className="bottom-content-services">
               <div className="featured-title">
-                <h5><a href="management.html">Management</a></h5>
+                <h5>Supervision</h5>
               </div>
               <div className="featured-desc">
                 <p>
-                  By dealing with data, select to ols that help you utomate tim cons sses.
+                  On-site supervision to ensure quality, safety, and timely execution of works.
                 </p>
               </div>
             </div>
 
             <div className="services-icon-box">
-              <a href="management.html">
+              <span>
                 <i className="ti ti-plus"></i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Service 6 */}
+      {/* Service 6 - Certi */}
       <div className="col-lg-4 col-md-6">
         <div className="featured-imagebox-services mb-30">
           <div className="featured-thumbnail box-shadow">
@@ -395,19 +404,19 @@ function page() {
 
             <div className="bottom-content-services">
               <div className="featured-title">
-                <h5><a href="general-contracting.html">General Contracting</a></h5>
+                <h5>Certi</h5>
               </div>
               <div className="featured-desc">
                 <p>
-                  By dealing with data, select to ols that help you utomate tim cons sses.
+                  Certification-related support and documentation for your engineering projects.
                 </p>
               </div>
             </div>
 
             <div className="services-icon-box">
-              <a href="https://cymolthemes.com/html/raxena/general-contracting">
+              <span>
                 <i className="ti ti-plus"></i>
-              </a>
+              </span>
             </div>
           </div>
         </div>
