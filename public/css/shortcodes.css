@@ -3001,14 +3001,14 @@ ul.project_info li p {
     box-shadow: 0 6px 12px rgb(0 0 0 / 25%);
     z-index: 99999;
 }
-.tmtheme_fbar_icons {
+/* .tmtheme_fbar_icons {
     display: block;
     position: relative;
     width: 55px;
     height: 45px;
     line-height: 52px;
     text-align: center;
-}
+} */
 .tmtheme_fbar_icons i {
     display: inline-block;
     vertical-align: middle;
