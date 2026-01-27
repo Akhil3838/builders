@@ -173,7 +173,7 @@ function page() {
         <div className="cmt_single_image-wrapper">
           <img
             className="img-fluid"
-            src="images/single-img-five.png"
+            src="images/new/h22.jpeg"
             alt=""
           />
         </div>
@@ -267,7 +267,7 @@ function page() {
                     <div className="col-lg-4">
                       <img
                         className="img-fluid"
-                        src="images/blog/03.jpg"
+                        src="images/new/h24.jpeg"
                         alt="image"
                       />
                     </div>
@@ -946,20 +946,45 @@ function page() {
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
           <div className="widget widget_nav_menu clearfix">
             <h3 className="widget-title">Useful Links</h3>
-            <ul id="menu-footer-services">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Offers</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Map</a></li>
-              <li><a href="#">Review</a></li>
+                       <ul id="menu-footer-services">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="/services">Services</a>
+              </li>
+              <li>
+                <a href="#">Offers</a>
+              </li>
+              <li>
+                <a href="/about-us">About</a>
+              </li>
+              <li>
+                <a href="contact-us">Contact Us</a>
+              </li>
+              {/* <li>
+                <a href="#">Gallery</a>
+              </li> */}
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Locations</a>
+              </li>
+              <li>
+                <a href="#">Map</a>
+              </li>
+              <li>
+                <a href="#">Review</a>
+              </li>
             </ul>
+
           </div>
         </div>
 

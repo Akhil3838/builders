@@ -190,7 +190,7 @@
 	background-position: center
 }
 .bg-img7 {
-	background-image: url(../images/bg-image/row-bgimage-7.png);
+	background-image: url(https://img.freepik.com/premium-photo/futuristic-neonlit-cityscape-with-towering-skyscrapers-vibrant-lights-modern-architecture-mysterious-green-sky_1099133-16634.jpg?w=1480);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center
@@ -258,7 +258,7 @@
 	background-size: cover!important
 }
 .col-bg-img-three.cmt-col-bgimage-yes .cmt-col-wrapper-bg-layer {
-	background-image: url(../images/bg-image/col-bgimage-3.jpg)!important;
+	background-image: url(../images/new/m2.jpeg)!important;
 	background-position: center!important;
 	background-repeat: no-repeat!important;
 	background-size: cover!important
@@ -285,13 +285,13 @@
 	background-repeat: no-repeat!important
 }
 .col-bg-img-eight.cmt-col-bgimage-yes .cmt-col-wrapper-bg-layer {
-	background-image: url(../images/bg-image/col-bgimage-8.jpg)!important;
+	background-image: url(../images/new/h13.jpeg)!important;
 	background-position: right bottom!important;
 	background-repeat: no-repeat!important;
 	background-size: cover
 }
 .col-bg-img-nine.cmt-col-bgimage-yes .cmt-col-wrapper-bg-layer {
-	background-image: url(../images/bg-image/col-bgimage-9.jpg)!important;
+	background-image: url(../images/new/h22.jpeg)!important;
 	background-position: right bottom!important;
 	background-repeat: no-repeat!important;
 	background-size: cover

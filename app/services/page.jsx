@@ -182,7 +182,7 @@ function page() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/01.jpg"
+              src="images/new/h4.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -223,7 +223,7 @@ function page() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/02.jpg"
+              src="images/new/h5.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -264,7 +264,7 @@ function page() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/03.jpg"
+              src="images/new/h7.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -305,7 +305,7 @@ function page() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/04.jpg"
+              src="images/new/h12.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -346,7 +346,7 @@ function page() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/05.jpg"
+              src="images/new/h25.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -543,18 +543,42 @@ function page() {
           <div className="widget widget_nav_menu clearfix">
             <h3 className="widget-title">Useful Links</h3>
             <ul id="menu-footer-services">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Offers</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Locations</a></li>
-              <li><a href="#">Map</a></li>
-              <li><a href="#">Review</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="/services">Services</a>
+              </li>
+              <li>
+                <a href="#">Offers</a>
+              </li>
+              <li>
+                <a href="/about-us">About</a>
+              </li>
+              <li>
+                <a href="contact-us">Contact Us</a>
+              </li>
+              {/* <li>
+                <a href="#">Gallery</a>
+              </li> */}
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Locations</a>
+              </li>
+              <li>
+                <a href="#">Map</a>
+              </li>
+              <li>
+                <a href="#">Review</a>
+              </li>
             </ul>
           </div>
         </div>

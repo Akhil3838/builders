@@ -170,7 +170,7 @@ export default function Home() {
   <div id="rev_slider_5_1" className="rev_slider fullwidthabanner" data-version="5.4.8.1">
     <ul>
 <li data-index="rs-1" data-transition="slotslide-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" >  
-   <img src="images/slides/slider-mainbg-001.jpg" alt="" title="slider-mainbg-001" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" className="rev-slidebg" data-no-retina></img>  
+   <img src="https://img.freepik.com/free-photo/skyscraper-office-building_74190-3994.jpg?t=st=1769499365~exp=1769502965~hmac=fbb94b7fa4c67c3de85f67c7a44b54ead49ba4730807fb036cad12c980e7e667&w=1480" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" className="rev-slidebg" data-no-retina></img>  
 
      {/* <!-- LAYER NR. 1 --> */}
 <div
@@ -418,7 +418,7 @@ export default function Home() {
   data-description=""
 >
   <img
-    src="images/slides/slider-mainbg-002.jpg"
+    src="https://img.freepik.com/free-photo/blue-texture_1160-639.jpg?t=st=1769499136~exp=1769502736~hmac=42126b265f938c04e0dc7b036432733c622fd63fbcd0e0ce73318c0c0d26e7b1&w=1480"
     alt=""
     title="slider-mainbg-002"
     data-bgposition="center center"
@@ -803,7 +803,7 @@ export default function Home() {
         </div>
 
         <img
-          src="images/bg-image/col-bgimage-9.jpg"
+          src="images/new/h9.jpeg"
           className="cmt-equal-height-image"
           alt="bg-image"
         />
@@ -1143,7 +1143,7 @@ export default function Home() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/01.jpg"
+              src="images/new/h2.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -1186,7 +1186,7 @@ export default function Home() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/02.jpg"
+              src="images/new/h9.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -1229,7 +1229,7 @@ export default function Home() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/03.jpg"
+              src="images/new/h24.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -1272,7 +1272,7 @@ export default function Home() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/01.jpg"
+              src="images/new/h29.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -1315,7 +1315,7 @@ export default function Home() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/02.jpg"
+              src="images/new/h25.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -1358,7 +1358,7 @@ export default function Home() {
           <div className="featured-thumbnail box-shadow">
             <img
               className="img-fluid"
-              src="images/services/03.jpg"
+              src="images/new/h2.jpeg"
               alt=""
             />
             <div className="cmt-box-view-overlay"></div>
@@ -1559,359 +1559,224 @@ export default function Home() {
 {/* row-title-section END */}
 {/* team-section */}
 <section className="cmt-row team-section style1 clearfix">
+{/* testimonial-section */}
+<section className="cmt-row testimonial-section cmt-bgcolor-skincolor cmt-bg cmt-bgimage-yes bg-img4 clearfix">
+  <div className="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
+
   <div className="container">
     <div className="row">
       {/* row */}
-      <div className="col-md-2 col-lg-3"></div>
-      <div className="col-sm-12 col-md-8 col-lg-6">
+      <div className="col-1 col-md-2 col-lg-3"></div>
+
+      <div className="col-10 col-md-8 col-lg-6">
         {/* section title */}
         <div className="section-title with-desc text-center clearfix">
           <div className="title-header">
-            <h5>WORKING WITH EXCELLENT</h5>
-            <h2 className="title">Our great team</h2>
+            <h5>Testimonial</h5>
+            <h2 className="title">What our clients saying?</h2>
           </div>
         </div>
         {/* section title end */}
       </div>
-      <div className="col-md-2 col-lg-3"></div>
+
+      <div className="col-1 col-md-2 col-lg-3"></div>
     </div>
     {/* row end */}
 
-    {/* row */}
     <div className="row">
+      {/* wrap-testimonial */}
       <div
-        className="team-slide owl-carousel owl-theme owl-loaded"
+        className="testimonial-slide owl-carousel"
         data-item="3"
         data-nav="false"
-        data-dots="false"
+        data-dots="true"
         data-auto="false"
       >
-        {/* featured-imagebox-team */}
-        <div className="featured-imagebox featured-imagebox-team style1">
-          {/* featured-thumbnail */}
-          <div className="featured-thumbnail">
-            <img
-              className="img-fluid"
-              src="images/team-member/team-img01.jpg"
-              alt="image"
-            />
-            <div className="cmt-box-view-overlay"></div>
-            {/* cmt-box-view-overlay */}
-            <div className="cmt-social-links-wrapper">
-              <ul className="social-icons square list-inline">
-                <li className="social-facebook">
-                  <a href="#">
-                    <i
-                      className="fa fa-facebook"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-teitter">
-                  <a href="#">
-                    <i
-                      className="fa fa-twitter"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-instagram">
-                  <a href="#">
-                    <i
-                      className="fa fa-instagram"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* featured-thumbnail end */}
-          <div className="featured-content text-center">
-            <div className="featured-title">
-              <h5>
-                <a href="team-details.html">Joya Mitchel</a>
-              </h5>
-            </div>
-            <div className="category">
-              <p>Installation Civil Enginner</p>
-            </div>
-          </div>
-        </div>
-        {/* featured-imagebox */}
+        {/* testimonials */}
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            {/* testimonial-content */}
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
 
-        {/* featured-imagebox */}
-        <div className="featured-imagebox featured-imagebox-team style1">
-          {/* featured-thumbnail */}
-          <div className="featured-thumbnail">
-            <img
-              className="img-fluid"
-              src="images/team-member/team-img02.jpg"
-              alt="image"
-            />
-            <div className="cmt-box-view-overlay"></div>
-            {/* cmt-box-view-overlay */}
-            <div className="cmt-social-links-wrapper">
-              <ul className="social-icons square list-inline">
-                <li className="social-facebook">
-                  <a href="#">
-                    <i
-                      className="fa fa-facebook"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-teitter">
-                  <a href="#">
-                    <i
-                      className="fa fa-twitter"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-instagram">
-                  <a href="#">
-                    <i
-                      className="fa fa-instagram"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* featured-thumbnail end */}
-          <div className="featured-content text-center">
-            <div className="featured-title">
-              <h5>
-                <a href="team-details.html">Dwayn Royes</a>
-              </h5>
-            </div>
-            <div className="category">
-              <p>Installation Civil Enginner</p>
-            </div>
-          </div>
-        </div>
-        {/* featured-imagebox */}
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                {/* testimonial-img */}
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/01.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
 
-        {/* featured-imagebox */}
-        <div className="featured-imagebox featured-imagebox-team style1">
-          {/* featured-thumbnail */}
-          <div className="featured-thumbnail">
-            <img
-              className="img-fluid"
-              src="images/team-member/team-img03.jpg"
-              alt="image"
-            />
-            <div className="cmt-box-view-overlay"></div>
-            {/* cmt-box-view-overlay */}
-            <div className="cmt-social-links-wrapper">
-              <ul className="social-icons square list-inline">
-                <li className="social-facebook">
-                  <a href="#">
-                    <i
-                      className="fa fa-facebook"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-teitter">
-                  <a href="#">
-                    <i
-                      className="fa fa-twitter"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-instagram">
-                  <a href="#">
-                    <i
-                      className="fa fa-instagram"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* featured-thumbnail end */}
-          <div className="featured-content text-center">
-            <div className="featured-title">
-              <h5>
-                <a href="team-details.html">John Martin</a>
-              </h5>
-            </div>
-            <div className="category">
-              <p>Installation Civil Enginner</p>
+              <div className="testimonial-caption">
+                <h5>Rshley Foster</h5>
+                {/* testimonial-caption */}
+                <label>CEO Of Financial Corp.</label>
+              </div>
             </div>
           </div>
         </div>
-        {/* featured-imagebox */}
+        {/* testimonials end */}
 
-        {/* featured-imagebox */}
-        <div className="featured-imagebox featured-imagebox-team style1">
-          {/* featured-thumbnail */}
-          <div className="featured-thumbnail">
-            <img
-              className="img-fluid"
-              src="images/team-member/team-img04.jpg"
-              alt="image"
-            />
-            <div className="cmt-box-view-overlay"></div>
-            {/* cmt-box-view-overlay */}
-            <div className="cmt-social-links-wrapper">
-              <ul className="social-icons square list-inline">
-                <li className="social-facebook">
-                  <a href="#">
-                    <i
-                      className="fa fa-facebook"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-teitter">
-                  <a href="#">
-                    <i
-                      className="fa fa-twitter"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-instagram">
-                  <a href="#">
-                    <i
-                      className="fa fa-instagram"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* featured-thumbnail end */}
-          <div className="featured-content text-center">
-            <div className="featured-title">
-              <h5>
-                <a href="team-details.html">Smitherford</a>
-              </h5>
-            </div>
-            <div className="category">
-              <p>Installation Civil Enginner</p>
-            </div>
-          </div>
-        </div>
-        {/* featured-imagebox */}
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
 
-        {/* featured-imagebox */}
-        <div className="featured-imagebox featured-imagebox-team style1">
-          {/* featured-thumbnail */}
-          <div className="featured-thumbnail">
-            <img
-              className="img-fluid"
-              src="images/team-member/team-img05.jpg"
-              alt="image"
-            />
-            <div className="cmt-box-view-overlay"></div>
-            {/* cmt-box-view-overlay */}
-            <div className="cmt-social-links-wrapper">
-              <ul className="social-icons square list-inline">
-                <li className="social-facebook">
-                  <a href="#">
-                    <i
-                      className="fa fa-facebook"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-teitter">
-                  <a href="#">
-                    <i
-                      className="fa fa-twitter"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-instagram">
-                  <a href="#">
-                    <i
-                      className="fa fa-instagram"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* featured-thumbnail end */}
-          <div className="featured-content text-center">
-            <div className="featured-title">
-              <h5>
-                <a href="team-details.html">Jenifer hotche</a>
-              </h5>
-            </div>
-            <div className="category">
-              <p>Installation Civil Enginner</p>
-            </div>
-          </div>
-        </div>
-        {/* featured-imagebox */}
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/02.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
 
-        {/* featured-imagebox */}
-        <div className="featured-imagebox featured-imagebox-team style1">
-          {/* featured-thumbnail */}
-          <div className="featured-thumbnail">
-            <img
-              className="img-fluid"
-              src="images/team-member/team-img06.jpg"
-              alt="image"
-            />
-            <div className="cmt-box-view-overlay"></div>
-            {/* cmt-box-view-overlay */}
-            <div className="cmt-social-links-wrapper">
-              <ul className="social-icons square list-inline">
-                <li className="social-facebook">
-                  <a href="#">
-                    <i
-                      className="fa fa-facebook"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-teitter">
-                  <a href="#">
-                    <i
-                      className="fa fa-twitter"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-                <li className="social-instagram">
-                  <a href="#">
-                    <i
-                      className="fa fa-instagram"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* featured-thumbnail end */}
-          <div className="featured-content text-center">
-            <div className="featured-title">
-              <h5>
-                <a href="team-details.html">jony wind</a>
-              </h5>
-            </div>
-            <div className="category">
-              <p>Installation Civil Enginner</p>
+              <div className="testimonial-caption">
+                <h5>Alex John</h5>
+                <label>CEO Of Financial Corp.</label>
+              </div>
             </div>
           </div>
         </div>
-        {/* featured-imagebox */}
+
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
+
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/03.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
+
+              <div className="testimonial-caption">
+                <h5>Maria st</h5>
+                <label>CEO Of Financial Corp.</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
+
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/01.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
+
+              <div className="testimonial-caption">
+                <h5>Joe Smith</h5>
+                <label>CEO Of Financial Corp.</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
+
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/02.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
+
+              <div className="testimonial-caption">
+                <h5>Lara huie</h5>
+                <label>CEO Of Financial Corp.</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
+
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/03.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
+
+              <div className="testimonial-caption">
+                <h5>Maria st</h5>
+                <label>CEO Of Financial Corp.</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="testimonials cmt-testimonial-box-view-style1">
+          <div className="testimonial-content">
+            <blockquote className="testimonial-text">
+              Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
+              Suspendisse ullamcorper metus in erat viverra , vehicula pharetra
+              dolo.
+            </blockquote>
+
+            <div className="testimonial-avatar">
+              <div className="testimonial-img">
+                <img
+                  className="img-fluid"
+                  src="images/testimonial/01.jpg"
+                  alt="testimonial-img"
+                />
+              </div>
+
+              <div className="testimonial-caption">
+                <h5>Joe Smith</h5>
+                <label>CEO Of Financial Corp.</label>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* wrap-testimonial end */}
     </div>
   </div>
+</section>
+{/* testimonial-section */}
 </section>
 {/* team-section end */}
 {/* contact-text-section */}
@@ -2164,7 +2029,7 @@ export default function Home() {
         <div className="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
           <div className="featured-thumbnail">
             {/* featured-image */}
-            <img className="img-fluid" src="images/blog/09.jpg" alt="" />
+            <img className="img-fluid" src="images/new/h3.jpeg" alt="" />
             <div className="cmt-box-post-date">
               {/* cmt-box-post-date */}
               <span className="cmt-entry-date">
@@ -2224,7 +2089,7 @@ export default function Home() {
         {/* featured-imagebox-post */}
         <div className="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
           <div className="featured-thumbnail">
-            <img className="img-fluid" src="images/blog/04.jpg" alt="" />
+            <img className="img-fluid" src="images/new/h4.jpeg" alt="" />
             <div className="cmt-box-post-date">
               <span className="cmt-entry-date">
                 <time
@@ -2278,7 +2143,7 @@ export default function Home() {
         {/* featured-imagebox-post */}
         <div className="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
           <div className="featured-thumbnail">
-            <img className="img-fluid" src="images/blog/05.jpg" alt="" />
+            <img className="img-fluid" src="images/new/h5.jpeg" alt="" />
             <div className="cmt-box-post-date">
               <span className="cmt-entry-date">
                 <time
@@ -2600,26 +2465,26 @@ export default function Home() {
             <h3 className="widget-title">Useful Links</h3>
             <ul id="menu-footer-services">
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#">FAQ</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="/services">Services</a>
               </li>
               <li>
                 <a href="#">Offers</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="/about-us">About</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="contact-us">Contact Us</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Gallery</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#">Pricing</a>
               </li>
