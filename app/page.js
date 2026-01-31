@@ -54,8 +54,9 @@ export default function Home() {
                     <img
                       id="logo-img"
                       className="img-center"
-                      src="images/logo-img.png"
+                      src="images/logopng.png"
                       alt="logo-img"
+                      style={{height:'65px'}}
                     />
                   </a>
                 </div>
@@ -65,28 +66,19 @@ export default function Home() {
                   className="site-navigation cmt-textcolor-white"
                 >
                   <div className="cmt-social-links-wrapper list-inline">
-                    <ul className="social-icons square">
-                      <li>
-                        <a href="#">
-                          <i className="ti ti-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="ti ti-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="ti ti-google"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="ti ti-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
+                   <ul className="social-icons square">
+  <li>
+    <a href="https://www.facebook.com/profile.php?id=100063615202250">
+      <i className="ti ti-facebook"></i>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <i className="ti ti-instagram"></i>
+    </a>
+  </li>
+</ul>
+
                   </div>
 
                   <div className="cmt-header-icons">
@@ -2363,6 +2355,7 @@ export default function Home() {
 
 
 </div>
+
 {/* footer start */}
 <footer className="footer widget-footer clearfix">
   <div className="first-footer cmt-bgcolor-darkgrey">
@@ -2373,7 +2366,7 @@ export default function Home() {
             <img
               id="footer-logo-img"
               className="img-center"
-              src="images/footer-logo.png"
+              src="images/logo3.png"
               alt=""
             />
           </div>
@@ -2564,42 +2557,33 @@ export default function Home() {
       <div className="row copyright">
         <div className="col-md-8 cmt-footer2-left">
           <span>
-            Copyright © 2019&nbsp;
-            <a href="#">Construction</a>. All rights reserved.
+            Copyright © 2026&nbsp;
+            <a href="#">Cherupuzha Builders</a>. All rights reserved.
           </span>
         </div>
 
         <div className="col-md-4 cmt-footer2-right">
-          <div className="social-icons">
-            <ul className="list-inline">
-              <li>
-                <a href="#">
-                  <i className="ti ti-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti ti-linkedin" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti ti-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="ti ti-google" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+<div className="social-icons">
+  <ul className="list-inline">
+    <li>
+      <a href="https://www.facebook.com/profile.php?id=100063615202250">
+        <i className="ti ti-facebook" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i className="ti ti-instagram" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
         </div>
       </div>
     </div>
   </div>
 </footer>
 {/* footer end */}
+
  {/* <!--back-to-top start--> */}
     <a id="totop" href="#top">
         <i className="fa fa-angle-up"></i>

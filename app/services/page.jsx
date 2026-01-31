@@ -10,7 +10,7 @@ function page() {
         </div> */}
         {/* <!-- preloader end --> */}
 
-        <header id="masthead" className="header cmt-header-style-01">
+   <header id="masthead" className="header cmt-header-style-01">
   <div className="cmt-header-wrap">
     <div id="cmt-stickable-header-w" className="cmt-stickable-header-w clearfix">
       <div id="site-header-menu" className="site-header-menu">
@@ -19,7 +19,6 @@ function page() {
             <div className="row">
               <div className="col">
 
-                {/* Topbar */}
                 <div className="cmt-topbar-wrapper cmt-bgcolor-darkgrey cmt-textcolor-white clearfix">
                   <div className="cmt-topbar-content">
                     <div className="topbar-right text-right">
@@ -31,7 +30,9 @@ function page() {
                         </li>
                         <li>
                           <i className="fa fa-envelope-o"></i>
-                          <a href="mailto:cherupuzhabuilders@gmail.com">cherupuzhabuilders@gmail.com</a>
+                          <a href="mailto:cherupuzhabuilders@gmail.com">
+                            cherupuzhabuilders@gmail.com
+                          </a>
                         </li>
                         <li>
                           <i className="fa fa-phone"></i>
@@ -42,37 +43,54 @@ function page() {
                   </div>
                 </div>
 
-                {/* Branding */}
                 <div className="site-branding">
-                  <a className="home-link" href="/" title="Raxena" rel="home">
+                  <a
+                    className="home-link"
+                    href="/"
+                    title="Raxena"
+                    rel="home"
+                  >
                     <img
                       id="logo-img"
                       className="img-center"
-                      src="images/logo-img.png"
+                      src="images/logopng.png"
                       alt="logo-img"
+                      style={{height:'65px'}}
                     />
                   </a>
                 </div>
 
-                {/* Navigation */}
-                <div id="site-navigation" className="site-navigation cmt-textcolor-white">
-
-                  {/* Social Links */}
+                <div
+                  id="site-navigation"
+                  className="site-navigation cmt-textcolor-white"
+                >
                   <div className="cmt-social-links-wrapper list-inline">
-                    <ul className="social-icons square">
-                      <li><a href="#"><i className="ti ti-facebook"></i></a></li>
-                      <li><a href="#"><i className="ti ti-twitter"></i></a></li>
-                      <li><a href="#"><i className="ti ti-google"></i></a></li>
-                      <li><a href="#"><i className="ti ti-linkedin"></i></a></li>
-                    </ul>
+                   <ul className="social-icons square">
+  <li>
+    <a href="https://www.facebook.com/profile.php?id=100063615202250">
+      <i className="ti ti-facebook"></i>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <i className="ti ti-instagram"></i>
+    </a>
+  </li>
+</ul>
+
                   </div>
 
-                  {/* Header Icons */}
                   <div className="cmt-header-icons">
                     <div className="cmt-header-icon cmt-header-search-link">
-                      <a href="#"><i className="fa fa-search"></i></a>
+                      <a href="#">
+                        <i className="fa fa-search"></i>
+                      </a>
                       <div className="cmt-search-overlay">
-                        <form method="get" className="cmt-site-searchform" action="#">
+                        <form
+                          method="get"
+                          className="cmt-site-searchform"
+                          action="#"
+                        >
                           <div className="w-search-form-h">
                             <div className="w-search-form-row">
                               <div className="w-search-input">
@@ -93,26 +111,27 @@ function page() {
                     </div>
                   </div>
 
-                  {/* Menu Toggle */}
                   <div className="cmt-menu-toggle">
                     <input type="checkbox" id="menu-toggle-form" />
-                    <label htmlFor="menu-toggle-form" className="cmt-menu-toggle-block">
+                    <label
+                      htmlFor="menu-toggle-form"
+                      className="cmt-menu-toggle-block"
+                    >
                       <span className="toggle-block toggle-blocks-1"></span>
                       <span className="toggle-block toggle-blocks-2"></span>
                       <span className="toggle-block toggle-blocks-3"></span>
                     </label>
                   </div>
 
-                  {/* Nav */}
                   <nav id="menu" className="menu">
                     <ul className="dropdown">
-                      <li>
+                      <li className="active">
                         <a href="/">Home</a>
                       </li>
                       <li>
                         <a href="/about-us">About</a>
                       </li>
-                      <li className="active">
+                      <li>
                         <a href="/services">Services</a>
                       </li>
                       <li>
@@ -129,6 +148,7 @@ function page() {
       </div>
     </div>
   </div>
+
 </header>
 {/* Page Title */}
 <div className="cmt-page-title-row">
@@ -429,20 +449,17 @@ function page() {
 
 </div>
 
-{/* Footer */}
+{/* footer start */}
 <footer className="footer widget-footer clearfix">
-
-  {/* First Footer */}
   <div className="first-footer cmt-bgcolor-darkgrey">
     <div className="container">
       <div className="row align-items-center">
-
         <div className="col-lg-3">
           <div className="footer-logo">
             <img
               id="footer-logo-img"
               className="img-center"
-              src="images/footer-logo.png"
+              src="images/logo3.png"
               alt=""
             />
           </div>
@@ -451,24 +468,21 @@ function page() {
         <div className="col-lg-9">
           <div className="cmt-footer-cta-wrapper cmt-bgcolor-skincolor box-shadow2">
             <div className="row">
-
               <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 widget-area">
                 <div className="featured-icon-box iconalign-before-heading cmt-icon_element-size-lg">
                   <div className="featured-content">
-
                     <div className="featured-icon">
                       <div className="cmt-icon cmt-icon_element-color-white cmt-icon_element-size-lg">
                         <i className="flaticon flaticon-email"></i>
                       </div>
                     </div>
-
                     <div className="featured-title">
                       <h5>Subscribe To Our Newsletter</h5>
                       <p>
-                        Stay in touch with us to get latest news and discount coupons
+                        Stay in touch with us to get latest news and discount
+                        coupons
                       </p>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -494,30 +508,24 @@ function page() {
                       />
                     </p>
                     <p>
-                      <button className="btn" type="submit">
+                      <button className="btn" type="submit" value="">
                         <i className="fa fa-envelope"></i>
                       </button>
                     </p>
                   </div>
-
                   <div id="subscribe-msg"></div>
                 </form>
               </div>
-
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 
-  {/* Second Footer */}
   <div className="second-footer cmt-textcolor-white">
     <div className="container">
       <div className="row">
-
-        {/* Widget 1 */}
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
           <div className="widget widget_contact clearfix">
             <h3 className="widget-title">Get In Touch</h3>
@@ -538,7 +546,6 @@ function page() {
           </div>
         </div>
 
-        {/* Widget 2 */}
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
           <div className="widget widget_nav_menu clearfix">
             <h3 className="widget-title">Useful Links</h3>
@@ -583,30 +590,38 @@ function page() {
           </div>
         </div>
 
-        {/* Widget 3 */}
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
           <div className="widget widget_post clearfix">
             <h3 className="widget-title">Recent Posts</h3>
             <ul className="cmt-recent-post-list">
               <li>
                 <a href="#">
-                  <img src="images/blog/post-01.jpg" alt="post-01" />
+                  <img
+                    src="images/blog/post-01.jpg"
+                    alt="post-01"
+                  />
                 </a>
                 <a href="single-blog.html">Our Biggest Summer Meetup</a>
-                <span className="post-date clearfix">August 1, 2018</span>
+                <span className="post-date clearfix">
+                  August 1, 2018
+                </span>
               </li>
               <li>
                 <a href="#">
-                  <img src="images/blog/post-02.jpg" alt="post-02" />
+                  <img
+                    src="images/blog/post-02.jpg"
+                    alt="post-02"
+                  />
                 </a>
                 <a href="single-blog.html">Our Biggest Summer Meetup</a>
-                <span className="post-date clearfix">Octomber 10, 2019</span>
+                <span className="post-date clearfix">
+                  Octomber 10, 2019
+                </span>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Widget 4 */}
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
           <div className="widget widget_text clearfix">
             <h3 className="widget-title">Get Free Estimate</h3>
@@ -614,7 +629,9 @@ function page() {
               <h3 className="widget_text_title cmt-textcolor-skincolor">
                 090205 85868
               </h3>
-              <p>Our online scheduling and payment system is safe.</p>
+              <p>
+                Our online scheduling and payment system is safe.
+              </p>
               <a
                 className="cmt-btn cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-border cmt-btn-color-skincolor mt-15 mb-20"
                 href="#"
@@ -624,39 +641,41 @@ function page() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 
-  {/* Bottom Footer */}
   <div className="bottom-footer-text cmt-bgcolor-darkgrey cmt-textcolor-white">
     <div className="container">
       <div className="row copyright">
-
         <div className="col-md-8 cmt-footer2-left">
           <span>
-            Copyright © 2019&nbsp;
-            <a href="#">Construction</a>. All rights reserved.
+            Copyright © 2026&nbsp;
+            <a href="#">Cherupuzha Builders</a>. All rights reserved.
           </span>
         </div>
 
         <div className="col-md-4 cmt-footer2-right">
-          <div className="social-icons">
-            <ul className="list-inline">
-              <li><a href="#"><i className="ti ti-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i className="ti ti-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i className="ti ti-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i className="ti ti-google" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
+<div className="social-icons">
+  <ul className="list-inline">
+    <li>
+      <a href="https://www.facebook.com/profile.php?id=100063615202250">
+        <i className="ti ti-facebook" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i className="ti ti-instagram" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
         </div>
-
       </div>
     </div>
   </div>
-
 </footer>
+{/* footer end */}
 
     {/* <!--back-to-top start--> */}
     <a id="totop" href="#top">
