@@ -896,46 +896,6 @@ export default function Home() {
             <div className="sep-line dashed"></div>
           </div>
 
-          <div className="row g-0 ml-0 mr-0">
-            <div className="col-md-5 col-sm-6">
-              {/* featured-icon-box */}
-              <div className="featured-icon-box style5 left-icon">
-                <div className="featured-icon">
-                  {/* featured-icon */}
-                  <div className="cmt-icon cmt-icon_element-fill cmt-icon_element-bgcolor-skincolor cmt-icon_element-size-md cmt-icon_element-style-round">
-                    <i className="flaticon flaticon-gear"></i>
-                  </div>
-                </div>
-                <div className="featured-content">
-                  <div className="featured-title">
-                    <h5>25 Years</h5>
-                  </div>
-                  <div className="featured-desc">
-                    <p>of Civil Experience</p>
-                  </div>
-                </div>
-              </div>
-              {/* featured-icon-box end */}
-            </div>
-
-            <div className="col-md-7 col-sm-6">
-              {/* featured-icon-box */}
-              <div className="featured-icon-box style5 left-icon">
-                <div>
-                  <img src="images/about-sign.png" alt="sign" />
-                </div>
-                <div className="featured-content">
-                  <div className="featured-title">
-                    <h5>Jhon Martin</h5>
-                  </div>
-                  <div className="featured-desc">
-                    <p>Chairnan and founder</p>
-                  </div>
-                </div>
-              </div>
-              {/* featured-icon-box end */}
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -1393,162 +1353,6 @@ export default function Home() {
   </div>
 </section>
 {/* service-section end */}
-{/* row-title-section */}
-<section className="cmt-row row-title-section style2 bg-img7 cmt-bgcolor-skincolor clearfix">
-  <div className="container">
-    <div className="row">
-      {/* row */}
-      <div className="col-sm-12 col-md-12 col-lg-7">
-        <div>
-          {/* section title */}
-          <div className="section-title row-title clearfix">
-            <div className="title-header">
-              <h2 className="title">
-                Creating Lasting Impressions To Through Interior Design
-              </h2>
-            </div>
-            <div className="title-desc pr-30 res-991-pr-0">
-              Our projects are fully tested, background checked, license
-              validated and insured with a 100% satisfaction guarantee.
-            </div>
-          </div>
-          {/* section title end */}
-
-          <div className="cmt-video-icon cmt-left-video-icon ttm_prettyphoto mt-35 res-991-mt-30">
-            <a
-              className="cmt-icon cmt-icon_element-fill cmt-icon_element-background-color-white cmt-icon_element-size-md cmt-icon_element-style-round ttm_prettyphoto mb-0"
-              href="https://youtu.be/7e90gBu4pas"
-            >
-              <i className="fa fa-play cmt-textcolor-darkgrey"></i>
-            </a>
-            <a
-              href="https://youtu.be/7e90gBu4pas"
-              className="ml-15 ttm_prettyphoto"
-            >
-              See Our Video
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-12 col-lg-5">
-        <div className="box-shadow spacing-4 cmt-bgcolor-white">
-          {/* section title */}
-          <div className="section-title clearfix">
-            <div className="title-header">
-              <h4 className="title">
-                Why people are choose our best constuction
-              </h4>
-            </div>
-          </div>
-          {/* section title end */}
-
-          <div className="row g-0">
-            <div className="col-md-6 col-lg-6 col-sm-6">
-              <ul className="cmt-list cmt-list-style-icon">
-                <li>
-                  <i className="icon-ok-5 cmt-textcolor-skincolor"></i>
-                  <span className="cmt-list-li-content">
-                    Expert &amp; Profesional
-                  </span>
-                </li>
-                <li>
-                  <i className="icon-ok-5 cmt-textcolor-skincolor"></i>
-                  <span className="cmt-list-li-content">
-                    24x7 Emergency
-                  </span>
-                </li>
-                <li>
-                  <i className="icon-ok-5 cmt-textcolor-skincolor"></i>
-                  <span className="cmt-list-li-content">
-                    High Quality Work
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-md-6 col-lg-6 col-sm-6">
-              <ul className="cmt-list cmt-list-style-icon">
-                <li>
-                  <i className="icon-ok-5 cmt-textcolor-skincolor"></i>
-                  <span className="cmt-list-li-content">
-                    Expert &amp; Profesional
-                  </span>
-                </li>
-                <li>
-                  <i className="icon-ok-5 cmt-textcolor-skincolor"></i>
-                  <span className="cmt-list-li-content">
-                    24x7 Emergency
-                  </span>
-                </li>
-                <li>
-                  <i className="icon-ok-5 cmt-textcolor-skincolor"></i>
-                  <span className="cmt-list-li-content">
-                    High Quality Work
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="row g-0 pt-25">
-            <div className="col-md-6 col-sm-6">
-              {/* featured-icon-box */}
-              <div className="featured-icon-box left-icon style7">
-                <div className="featured-icon">
-                  {/* featured-icon */}
-                  <div className="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                    <i className="flaticon flaticon-phone-call"></i>
-                  </div>
-                </div>
-                <div className="featured-content">
-                  {/* featured-content */}
-                  <div className="featured-title">
-                    <h5>Toll Free NO.</h5>
-                  </div>
-                  <div className="featured-desc">
-                    {/* featured-desc */}
-                    <p>+844 1800 33 555</p>
-                  </div>
-                </div>
-                {/* featured-icon-box */}
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-6">
-              {/* featured-icon-box */}
-              <div className="featured-icon-box left-icon style7">
-                <div className="featured-icon">
-                  {/* featured-icon */}
-                  <div className="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                    <i className="flaticon flaticon-envelope"></i>
-                  </div>
-                </div>
-                <div className="featured-content">
-                  {/* featured-content */}
-                  <div className="featured-title">
-                    <h5>Email</h5>
-                  </div>
-                  <div className="featured-desc">
-                    {/* featured-desc */}
-                    <p>
-                      <a href="mailto:info@example.com">
-                        cherupuzhabuilders@gmail.com
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                {/* featured-icon-box */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {/* row end */}
-  </div>
-</section>
-{/* row-title-section END */}
 {/* team-section */}
 <section className="cmt-row team-section style1 clearfix">
 {/* testimonial-section */}
@@ -2358,7 +2162,7 @@ export default function Home() {
 
 {/* footer start */}
 <footer className="footer widget-footer clearfix">
-  <div className="first-footer cmt-bgcolor-darkgrey">
+  {/* <div className="first-footer cmt-bgcolor-darkgrey">
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-3">
@@ -2428,7 +2232,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
 
   <div className="second-footer cmt-textcolor-white">
     <div className="container">
@@ -2592,9 +2396,9 @@ export default function Home() {
 
     {/* Color Palate / Color Switcher */}
 <div className="color-switcher">
-  <div className="color-trigger">
+  {/* <div className="color-trigger">
     <i className="fa fa-gear"></i>
-  </div>
+  </div> */}
 
   <div className="color-switcher-header">
     <h6>Switcher Colors</h6>

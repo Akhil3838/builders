@@ -857,7 +857,7 @@ function page() {
 
 {/* footer start */}
 <footer className="footer widget-footer clearfix">
-  <div className="first-footer cmt-bgcolor-darkgrey">
+  {/* <div className="first-footer cmt-bgcolor-darkgrey">
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-3">
@@ -927,7 +927,7 @@ function page() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
 
   <div className="second-footer cmt-textcolor-white">
     <div className="container">
@@ -1090,9 +1090,9 @@ function page() {
     {/* <!--back-to-top end--> */}
 {/* Color Palate / Color Switcher */}
 <div className="color-switcher">
-  <div className="color-trigger">
+  {/* <div className="color-trigger">
     <i className="fa fa-gear"></i>
-  </div>
+  </div> */}
 
   <div className="color-switcher-header">
     <h6>Switcher Colors</h6>
