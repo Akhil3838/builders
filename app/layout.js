@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Favicon */}
-        <link rel="shortcut icon" href="/images/favicon.png" />
+        <link rel="shortcut icon" href="/images/logo2.jpeg" />
 
         {/* Bootstrap */}
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
